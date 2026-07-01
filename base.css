@@ -1,0 +1,26 @@
+html {
+    padding-left: 100px;
+    background-color: #750E21;
+}
+
+/* Remove marcadores de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove sublinhado e a cor padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ajusta imagens para não ultrapassarem o tamanho do container */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Garante que elementos de formulário usem a mesma fonte do site */
+button, input, textarea, select {
+  font: inherit;
+}
